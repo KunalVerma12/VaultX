@@ -68,7 +68,7 @@ Version Control: Git & GitHub
 Pull requests are welcome!
 If you’d like to contribute, fork the repo and create a new branch for your feature or fix.
 # 👩‍💻 Author
-Developed by Kunal V
+Developed by [Kunal V](https://github.com/KunalVerma12)
 
 A full-stack developer passionate about blending technology, creativity, and security.
 # 🪪 License
