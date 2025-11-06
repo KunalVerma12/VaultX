@@ -1,0 +1,334 @@
+{
+    "Shashi Bala": {
+        "password_hash": "576c85c584f60555c2a024cbb99dfbbdb5f58c3bdcf28dbc8ea315fd46a388f3",
+        "pin_hash": "ab9828ca390581b72629069049793ba3c99bb8e5e9e7b97a55c71957e04df9a3",
+        "balance": 48450.0,
+        "transactions": [
+            {
+                "type": "Deposit",
+                "amount": 40000.0,
+                "timestamp": "2025-11-02 12:21:33"
+            },
+            {
+                "type": "Withdraw",
+                "amount": 200.0,
+                "timestamp": "2025-11-02 12:30:34"
+            },
+            {
+                "type": "Transfer from Apple",
+                "amount": 100.0,
+                "timestamp": "2025-11-02 13:05:59"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-04 11:08:34"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-04 11:08:36"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-04 11:08:37"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-04 11:08:38"
+            },
+            {
+                "type": "Deposit",
+                "amount": 200.0,
+                "timestamp": "2025-11-04 11:30:33"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-04 11:44:35"
+            },
+            {
+                "type": "Transfer from Nobita Nobi",
+                "amount": 2100.0,
+                "timestamp": "2025-11-04 13:04:42"
+            },
+            {
+                "type": "Transfer from Pikachu",
+                "amount": 50.0,
+                "timestamp": "2025-11-05 00:49:08"
+            },
+            {
+                "type": "Deposit",
+                "amount": 200.0,
+                "timestamp": "2025-11-05 01:34:02"
+            }
+        ],
+        "rating": 5.0,
+        "logged_in": false
+    },
+    "Apple": {
+        "password_hash": "81a83544cf93c245178cbc1620030f1123f435af867c79d87135983c52ab39d9",
+        "pin_hash": "fe675fe7aaee830b6fed09b64e034f84dcbdaeb429d9cccd4ebb90e15af8dd71",
+        "balance": 1900.0,
+        "transactions": [
+            {
+                "type": "Deposit",
+                "amount": 2000.0,
+                "timestamp": "2025-11-02 13:05:31"
+            },
+            {
+                "type": "Transfer to Shashi Bala",
+                "amount": -100.0,
+                "timestamp": "2025-11-02 13:05:59"
+            }
+        ],
+        "rating": null,
+        "logged_in": false
+    },
+    "mango": {
+        "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "pin_hash": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+        "balance": 500.0,
+        "transactions": [
+            {
+                "type": "Deposit",
+                "amount": 1000.0,
+                "timestamp": "2025-11-02 15:57:50"
+            },
+            {
+                "type": "Withdraw",
+                "amount": 500.0,
+                "timestamp": "2025-11-02 15:58:34"
+            }
+        ],
+        "rating": null,
+        "logged_in": false
+    },
+    "Nobita Nobi": {
+        "password_hash": "a7be8e1fe282a37cd666e0632b17d933fa13f21addf4798fc0455bc166e2488c",
+        "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "balance": 5027.0,
+        "transactions": [
+            {
+                "type": "Deposit",
+                "amount": 10000.0,
+                "timestamp": "2025-11-04 13:04:19"
+            },
+            {
+                "type": "Transfer to Shashi Bala",
+                "amount": -2100.0,
+                "timestamp": "2025-11-04 13:04:42"
+            },
+            {
+                "type": "Withdraw",
+                "amount": 123.0,
+                "timestamp": "2025-11-04 13:05:29"
+            },
+            {
+                "type": "Transfer to Shizuka Minamoto",
+                "amount": -2650.0,
+                "timestamp": "2025-11-04 13:09:02"
+            },
+            {
+                "type": "Transfer to Pikachu",
+                "amount": -100.0,
+                "timestamp": "2025-11-04 16:57:03"
+            }
+        ],
+        "rating": null,
+        "logged_in": false
+    },
+    "Shizuka Minamoto": {
+        "password_hash": "a7be8e1fe282a37cd666e0632b17d933fa13f21addf4798fc0455bc166e2488c",
+        "pin_hash": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+        "balance": 2650.0,
+        "transactions": [
+            {
+                "type": "Transfer from Nobita Nobi",
+                "amount": 2650.0,
+                "timestamp": "2025-11-04 13:09:02"
+            }
+        ],
+        "rating": null,
+        "logged_in": false
+    },
+    "Pikachu": {
+        "password_hash": "06ad5b0da64dbb7dbc0ebe0bc993d45c163a227b08f7dcacc636ef6d42bf3d9d",
+        "pin_hash": "3d1e557b540ac045b3b327994a351f08a443f9216f9b2b8d3a0f42b58671ac83",
+        "balance": 1018.0,
+        "transactions": [
+            {
+                "type": "Transfer from Nobita Nobi",
+                "amount": 100.0,
+                "timestamp": "2025-11-04 16:57:03"
+            },
+            {
+                "type": "Deposit",
+                "amount": 100.0,
+                "timestamp": "2025-11-05 00:20:08"
+            },
+            {
+                "type": "Transfer to vansh",
+                "amount": -10.0,
+                "timestamp": "2025-11-05 00:20:33"
+            },
+            {
+                "type": "Deposit",
+                "amount": 200.0,
+                "timestamp": "2025-11-05 00:47:53"
+            },
+            {
+                "type": "Transfer to Shashi Bala",
+                "amount": -50.0,
+                "timestamp": "2025-11-05 00:49:08"
+            },
+            {
+                "type": "Transfer to Scorbunny",
+                "amount": -300.0,
+                "timestamp": "2025-11-05 01:36:44"
+            },
+            {
+                "type": "Withdraw",
+                "amount": 20.0,
+                "timestamp": "2025-11-05 01:36:55"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-05 01:40:07"
+            },
+            {
+                "type": "Withdraw",
+                "amount": 200.0,
+                "timestamp": "2025-11-05 01:40:25"
+            },
+            {
+                "type": "Transfer to vansh",
+                "amount": -2.0,
+                "timestamp": "2025-11-05 01:41:34"
+            },
+            {
+                "type": "Withdraw",
+                "amount": 10.0,
+                "timestamp": "2025-11-05 01:44:13"
+            },
+            {
+                "type": "Deposit",
+                "amount": 10.0,
+                "timestamp": "2025-11-05 02:05:04"
+            }
+        ],
+        "rating": 5.0,
+        "logged_in": true
+    },
+    "Sobb": {
+        "email": "sobb1491@gmail.com",
+        "password": "2003",
+        "balance": 0,
+        "transactions": [],
+        "ratings": [],
+        "logged_in": false
+    },
+    "Scorbunny": {
+        "email": "sobb1491@gamil.com",
+        "password_hash": "023e33504ab909cf87a6f4e4e545090e40bdc0a2153e5b68b19f7fad2b737904",
+        "pin_hash": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+        "balance": 300.0,
+        "transactions": [
+            {
+                "type": "Transfer from Pikachu",
+                "amount": 300.0,
+                "timestamp": "2025-11-05 01:36:44"
+            }
+        ],
+        "rating": null,
+        "logged_in": false
+    },
+    "vansh": {
+        "email": "satarugojo12340@gmail.com",
+        "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "pin_hash": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+        "balance": 12503.0,
+        "transactions": [
+            {
+                "type": "Deposit",
+                "amount": 10000.0,
+                "timestamp": "2025-11-04 21:17:38"
+            },
+            {
+                "type": "Transfer from Pikachu",
+                "amount": 10.0,
+                "timestamp": "2025-11-05 00:20:33"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-05 00:59:21"
+            },
+            {
+                "type": "Deposit",
+                "amount": 12.0,
+                "timestamp": "2025-11-05 01:05:22"
+            },
+            {
+                "type": "Deposit",
+                "amount": 1200.0,
+                "timestamp": "2025-11-05 01:08:27"
+            },
+            {
+                "type": "Deposit",
+                "amount": 10.0,
+                "timestamp": "2025-11-05 01:08:53"
+            },
+            {
+                "type": "Deposit",
+                "amount": 12.0,
+                "timestamp": "2025-11-05 01:17:48"
+            },
+            {
+                "type": "Deposit",
+                "amount": 33.0,
+                "timestamp": "2025-11-05 01:21:01"
+            },
+            {
+                "type": "Deposit",
+                "amount": 12.0,
+                "timestamp": "2025-11-05 01:23:32"
+            },
+            {
+                "type": "Deposit",
+                "amount": 12.0,
+                "timestamp": "2025-11-05 01:32:21"
+            },
+            {
+                "type": "Transfer from Pikachu",
+                "amount": 2.0,
+                "timestamp": "2025-11-05 01:41:34"
+            }
+        ],
+        "rating": 5.0,
+        "logged_in": false
+    },
+    "Dua Lip": {
+        "email": "lipaadua80@gamil.com",
+        "password_hash": "1bea20e1df19b12013976de2b5e0e3d1fb4ba088b59fe53642c324298b21ffd9",
+        "pin_hash": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+        "balance": 100.0,
+        "transactions": [
+            {
+                "type": "Deposit",
+                "amount": 200.0,
+                "timestamp": "2025-11-05 10:42:31"
+            },
+            {
+                "type": "Withdraw",
+                "amount": 100.0,
+                "timestamp": "2025-11-05 10:42:39"
+            }
+        ],
+        "rating": 4.0,
+        "logged_in": false
+    }
+}
