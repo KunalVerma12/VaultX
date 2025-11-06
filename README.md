@@ -1,7 +1,7 @@
 # VaultX
 A full-stack ATM simulator built using Flask, React, Node.js, and Python. VaultX provides secure transactions and account management — all wrapped in a sleek modern UI
 # 🧩 Project Structure
-ATM-Chatbot/
+'''ATM-Chatbot/
 │
 ├── atm_api.py          # Backend API built with Flask
 ├── atm_core.py         # Core ATM functionalities (deposit, withdraw, etc.)
@@ -13,7 +13,7 @@ ATM-Chatbot/
 │   ├── public/
 │   └── package.json
 │
-└── README.md
+└── README.md'''
 # ⚙️ Features
 🔐 **User Authentication** – Secure login & signup system using PIN and hashed passwords.
 - 💸 **Deposit, Withdraw, and Balance Inquiry** – Fully functional transaction handling.
@@ -27,23 +27,23 @@ ATM-Chatbot/
 - ⭐ **Fun Rating System** – Users can rate their ATM experience for interactive engagement.
 
 # 🚀 Setup Instructions
-#Navigate to backend folder
+#Navigate to backend folder  
 cd server
 
-#Install dependencies
+#Install dependencies  
 pip install flask flask-cors
 
-#Run backend
+#Run backend  
 python atm_api.py
 Backend will start at http://127.0.0.1:5000/
 # 💻 Frontend Setup (React)
-#Navigate to client folder
+#Navigate to client folder  
 cd client
 
-#Install dependencies
+#Install dependencies  
 npm install
 
-#Start frontend
+#Start frontend  
 npm start
 Frontend runs on http://localhost:3000/ and connects to Flask backend.
 # 🧠 Technologies Used
