@@ -1,0 +1,341 @@
+/* === AUTH SCREENS === */
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #fdfdfd;
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+p {
+  margin-top: 10px;
+  color: #333;
+}
+
+/* === DASHBOARD LAYOUT === */
+body {
+  background: linear-gradient(135deg, #0d47a1, #1976d2, #64b5f6);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 260px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem 3rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* === DASHBOARD HEADER === */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header .user {
+  font-weight: 600;
+  color: #aee6ff;
+}
+
+/* === BALANCE CARD === */
+.balance-card {
+  margin: 20px 0;
+  background: linear-gradient(120deg, #42a5f5, #478ed1);
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(66, 165, 245, 0.4);
+  text-align: center;
+}
+
+.balance-sub {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+/* === ACTIONS SECTION === */
+.actions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.action-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.action-card input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions input {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.actions button,
+.download-btn,
+.logout-btn {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.download-btn {
+  background: #43a047;
+}
+
+.logout-btn {
+  background: #e53935;
+}
+
+/* === TRANSACTIONS SECTION === */
+.transactions-card {
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 15px;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+/* === STATUS MESSAGES === */
+.status-message {
+  margin: 15px 0;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+.status-message.success {
+  background: rgba(76, 175, 80, 0.2);
+  border: 1px solid rgba(76, 175, 80, 0.4);
+  color: #c8f7c5;
+  box-shadow: 0 2px 10px rgba(76, 175, 80, 0.3);
+}
+
+.status-message.error {
+  background: rgba(255, 82, 82, 0.2);
+  border: 1px solid rgba(255, 82, 82, 0.4);
+  color: #ffbaba;
+  box-shadow: 0 2px 10px rgba(255, 82, 82, 0.3);
+}
+
+/* === RATING MODAL === */
+.rating-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.rating-box {
+  background: #fff;
+  border: 3px solid #007bff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  animation: popIn 0.3s ease-out;
+}
+
+.rating-box span {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: inline-block;
+  margin: 8px;
+  font-size: 2rem;
+}
+
+.rating-box span:hover {
+  transform: scale(1.3);
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .actions-grid {
+    grid-template-columns: 1fr;
+  }
+
+/* ---------- small fixes to ensure interactivity & visibility ---------- */
+
+/* ensure main content text is visible and buttons clickable */
+.dashboard-container * { -webkit-font-smoothing: antialiased; }
+
+/* ensure rating overlay only captures pointer-events when visible */
+.rating-overlay {
+  pointer-events: auto; /* overlay active when present */
+}
+
+/* if overlay not present, nothing blocks clicks; defensive guard */
+.rating-overlay.hidden {
+  display: none;
+  pointer-events: none;
+}
+
+/* make nav buttons clearly clickable */
+.nav-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.06);
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+.nav-btn:hover { background: rgba(255,255,255,0.03); transform: none; }
+
+/* transactions list: make text readable on dark background */
+.transactions-list li { display:flex; justify-content: space-between; gap: 12px; padding: 6px 0; color: #e6f0ff; }
+
+/* make disabled button visually distinct but still clickable by JS (in case) */
+button[disabled] { opacity: 0.6; cursor: not-allowed; }
+
+/* ensure status messages sit above cards */
+.status-message { z-index: 5; position: relative; display: inline-block; }
+
+/* small responsive fix to keep layout horizontal on desktop */
+@media (min-width: 769px) {
+  .dashboard-container { align-items: stretch; }
+}
+
+/* === FIX: Ensure status popups are visible === */
+.status-message {
+  position: fixed;         /* make it float above dashboard */
+  bottom: 40px;            /* position above bottom edge */
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 280px;
+  padding: 12px 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 500;
+  z-index: 9998;           /* higher than cards but lower than rating modal */
+  backdrop-filter: blur(15px);
+  color: #fff;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, 10px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.status-message.success {
+  background: rgba(46, 204, 113, 0.8);
+}
+
+.status-message.error {
+  background: rgba(231, 76, 60, 0.8);
+}
+
+
+}
